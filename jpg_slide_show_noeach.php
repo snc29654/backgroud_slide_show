@@ -5,8 +5,6 @@ while (false !== ($file[] = readdir($gazoudir))){
     $len=$len+1;
 };
 closedir($gazoudir);
-sort($file);
-reset($file);
 print "<!DOCTYPE html>";
 print "<html lang=\"ja\">";
 print "<head>";

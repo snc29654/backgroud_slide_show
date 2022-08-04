@@ -1,4 +1,9 @@
 <?php
+
+$result = glob('./jpg/*');
+var_dump($result);
+
+
 $gazoudir = opendir("./jpg");
 while (false !== ($file[] = readdir($gazoudir)));
 closedir($gazoudir);
